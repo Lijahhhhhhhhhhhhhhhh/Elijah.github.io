@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Baguio City National Science High School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="BCNSHS.png" width="400in" height="80in"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Facilities.html">BUILDINGS & FACILITIES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="Mission.html">MISSION & VISION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Buildings & Facilities</h1>
+    </section>
+
+<!------Facilities-->
+
+<section class="facilities">
+    <H1>FACILITIES</H1>
+    <p>Baguio City, our campus provides students with modern classrooms equipped with technology, well-equipped laboratories for scientific exploration, a well-stocked library for intellectual growth, and spacious recreational areas for physical development. With a committed faculty and staff, our facilities are designed to inspire and empower students, enabling them to excel academically and thrive in their pursuit of knowledge and scientific discovery.</p>
+
+<div class="row">
+    <div class="facilities-col">
+        <img src="lib.jpg">
+        <h3>Library</h3>
+        <p>Collection of books, periodicals, and other educational materials, providing students with access to information, research materials, and a quiet study environment.</p>   
+    </div>
+    <div class="facilities-col">
+        <img src="sci.jpg">
+        <h3>Science Laboratory</h3>
+        <p>Specialized facility equipped with scientific instruments and materials where students conduct experiments and engage in hands-on learning to explore various scientific concepts.</p>   
+    </div>
+    <div class="facilities-col">
+        <img src="com.jpg">
+        <h3>Computer Laboratory</h3>
+        <p>Dedicated space equipped with computers and related technology where students can learn and practice computer skills and programming.</p>   
+    </div>
+</div>
+<br>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="he.jpg">
+            <h3>Home Economics Laboratory</h3>
+            <p>Practical learning space where students learn skills related to cooking, budgeting, and other aspects of home management.</p>   
+        </div>
+        <div class="facilities-col">
+            <img src="mice.jpg">
+            <h3>Mice Facility</h3>
+            <p>Designated area that is equipped and maintained for the care, housing, and study of mice for educational or scientific purposes and research purposes, such as conducting experiments or teaching students about animal behavior and biology.</p>   
+        </div>
+    </div>
+</section>
+
+
+<!------Buildings-->
+
+
+
+<section class="campus" style="background-color: #dcd5cc; border-radius: 10%;">
+    <h1>BUILDINGS</h1>
+    <h3>(Hover to reveal information)</h3>
+    <p>The BCNSHS campus is characterized by its well-designed and functional buildings, providing an environment conducive to learning and personal growth. The main academic building stands tall and houses various classrooms, laboratories, and lecture halls equipped with modern amenities and technologies. These spaces facilitate interactive and hands-on learning experiences for students, enabling them to delve deep into scientific and academic pursuits.</p>
+
+<div class="row">
+    <div class="campus-col">
+        <img src="bg1.jpg"> 
+        <div class="layer">
+            <h3>BUILDING 1</h3>
+            <h4>Classrooms, Library, Science Lab, Computer Lab, HE Lab</h4>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="bg2.jpg">
+        <div class="layer">
+            <h3>Building 2</h3>
+            <h4>Teacher's Faculty</h4>
+        </div>
+    </div>
+</div>
+<br>
+<div class="row">
+    <div class="campus-col">
+        <img src="bg3.jpg">
+        <div class="layer">
+            <h3>Building 3</h3>
+            <h4>Classrooms, Teacher's Faculty</h4>
+        </div>
+    </div>
+    <div class="campus-col">
+        <img src="bg4.jpg">
+        <div class="layer">
+            <h3>Building 4</h3>
+            <h4>JHS Classrooms, Teacher's Faculty, Function Hall, Guidance and Principal's Office</h4>
+        </div>
+    </div>
+</div>
+<br>
+    <div class="row">
+        <div class="campus-col">
+            <img src="bg5.jpg">
+            <div class="layer">
+                <h3>Building 5</h3>
+                <h4>PTA Office, Mice Facility</h4>
+            </div>
+        </div>
+        <div class="campus-col">
+            <img src="bg6.jpg">
+            <div class="layer">
+                <h3>Building 6</h3>
+                <h4>Classrooms</h4>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+<!----Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Empowering Minds, Inspiring Futures: Excellence in Education at BCNSHS.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+    </div>
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+    <Script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </Script>
+
+</body>
+</html>
+
+
+

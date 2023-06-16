@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="device-width, initial-scale=1.0">
+    <title>Baguio City National Science High School</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,600;0,700;1,100&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="BCNSHS.png" width="400in" height="80in"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" aria-hidden="true" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="Facilities.html">BUILDINGS & FACILITIES</a></li>
+                    <li><a href="Contact.html">CONTACT</a></li>
+                    <li><a href="Mission.html">MISSION & VISION</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" aria-hidden="true" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Course</h1>
+    </section>
+
+<!------Our Courses-->
+
+<section class="course">
+    <p>At Baguio City National Science High School, our courses are designed to cultivate a deep passion for scientific inquiry and critical thinking. We offer a comprehensive curriculum that covers a wide range of scientific disciplines, including physics, chemistry, biology, mathematics, and computer science. Through hands-on experiments, interactive discussions, and engaging projects, students develop a strong foundation in scientific principles while honing their analytical and problem-solving skills. Our dedicated faculty members provide individualized attention and guidance, ensuring that students receive the highest quality education and are well-prepared for future scientific endeavors.</p>
+        <h1>Junior High School</h1>
+
+        <div class="row">
+            <div class="course-col">
+                <img src="course.png">
+                <h3>Science, Technology, and Engineering Program (STE)</h3>
+                <h4>STE program or The Science, Technology and Engineering program is an educational program that focus on promoting a quality secondary education and encouraging student’s interest and skills in the fields of science, technology, and engineering.</h4>
+            </div>
+        </div>
+
+</section>
+
+<section class="course">
+    <h1>Senior High School</h1>
+    <p>Academic Strand</p>
+
+    <div class="row">
+        <div class="course-col">
+            <img src="stem.jpg" >
+            <h3>Science, Technology, Engineering, and Management (STEM)</h3>
+            <h4>STEM or science, technology, engineering and math is an educational approach in senior high school curriculum refers to any subject that fall under these four disciplines. STEM aims to cultivate critical thinking, problem-solving, and innovation skills in students.</h4>
+        </div>
+        <div class="course-col">
+            <img src="abm.jpg">
+            <h3>Accountancy, Business, and Mathematics (ABM) </h3>
+            <h4>ABM or Accountancy, Business, and Management in senior high school curriculum focuses on teaching students’ information or skills related to accountancy, business, entrepreneurship, and management. </h4>
+        </div>
+        <div class="course-col">
+            <img src="humss.jpg">
+            <h3>Humanities and Social Sciences (HUMSS)</h3>
+            <h4>HUMMS or Humanities and Social Sciences strand in the senior high school curriculum aims to develop students’ understanding of human behavior, society, culture, and various aspects of the humanities and social sciences. </h4>
+        </div>
+    </div>
+<br>
+        <p>Technology And Livelihood Education (TLE) Strand</p>
+
+        <div class="row">
+            <div class="course-col">
+                <img src="ict.jpg">
+                <h3>Information and Communications Technology (Computer Programming and Animation)</h3>
+                <h4>ICT or Information and Communications Technology strand in senior high school curriculum specializes on teaching students’ knowledge and skill in various areas of information technology and communications. It is designed for students who have an interest in pursuing careers in field related to technology and communications.  </h4>
+            </div>
+            <div class="course-col">
+                <img src="auto.jpg">
+                <h3>Industrial Arts (Automotive Servicing)</h3>
+                <h4>Automotive strand in senior high school curriculum provides students’ knowledge and skills related to the automotive industry, specifically in automotive maintenance, repair, and servicing. </h4>
+            </div>
+        </div>
+<Br>
+    <p>Technical Vocational-Livelihood Track (TVL) Strand</p>
+    <div class="row">
+        <div class="course-col">
+            <img src="home.jpg">
+            <h3>Home Economics (Bread and Pastry Production, Cookery, Food and Beverages Services)</h3>
+            <h4>HE or Home Economics strand in senior high school curriculum focuses on developing students’ knowledge and skills in various aspects of home economics, such as household management, food preparation, family and community, and entrepreneurship.</h4>
+        </div>
+    </div>
+</section>
+        
+
+
+
+<!----Footer-->
+<section class="footer">
+    <h4>About Us</h4>
+    <p>Empowering Minds, Inspiring Futures: Excellence in Education at BCNSHS.</p>
+    <div class="icons">
+        <i class="fa fa-facebook" aria-hidden="true"></i>
+        <i class="fa fa-envelope" aria-hidden="true"></i>
+    </div>
+</section>
+
+
+<!------JavaScript for Toggle Menu------>
+    <Script>
+
+        var navLinks = document.getElementById("navLinks");
+
+        function showMenu(){
+            navLinks.style.right = "0";
+        }
+        function hideMenu(){
+            navLinks.style.right = "-200px";
+        }
+
+    </Script>
+
+</body>
+</html>
+
+
+
